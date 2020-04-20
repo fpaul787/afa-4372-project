@@ -7,8 +7,9 @@
 
 import React from "react"
 import PropTypes from "prop-types"
+import {Helmet} from 'react-helmet'
 import { useStaticQuery, graphql } from "gatsby"
-
+import Menu from './menu'
 import Header from "./header"
 import "./layout.css"
 
@@ -24,8 +25,14 @@ const Layout = ({ children }) => {
   `)
 
   return (
-    <>
+    <div>
+      <Helmet>
+         title = {data.site.siteMetadata.title}
+      </Helmet>
       <Header siteTitle={data.site.siteMetadata.title} />
+      <Menu>
+        
+      </Menu>
       <div
         style={{
           margin: `0 auto`,
@@ -40,7 +47,7 @@ const Layout = ({ children }) => {
           <a href="https://www.gatsbyjs.org">Gatsby</a>
         </footer>
       </div>
-    </>
+    </div>
   )
 }
 
