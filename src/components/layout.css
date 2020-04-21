@@ -620,4 +620,16 @@ pre tt:after {
   html {
     font-size: 100%;
   }
+  
 }
+
+@media only screen and (max-width: 375px) {
+  
+  
+  body{
+   
+    font-size: 75%;
+  }
+  
+}
+
