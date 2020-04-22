@@ -62,27 +62,30 @@ const Gallery = () => {
     <div className="container">
       <Img
         fluid={data.review1.childImageSharp.fluid}
-        style={{ margin: "1rem", maxHeight: "calc(50vh - 4rem)" }}
-        imgStyle={{ objectFit: "contain" }}
+        style={{ margin: "1rem", maxHeight: "calc(150vh - 4rem)" }}
+        imgStyle={{ objectFit: "fill" }}
       />
       <Img
         fluid={data.review2.childImageSharp.fluid}
-        style={{ margin: "1rem", maxHeight: "calc(50vh - 4rem)" }}
-        imgStyle={{ objectFit: "contain" }}
+        style={{ margin: "1rem", maxHeight: "calc(150vh - 4rem)" }}
+        imgStyle={{ objectFit: "fill" }}
       />
+      <hr style={{borderTop: '10px solid rebeccapurple'}}/>
       <Img
         fluid={data.review3.childImageSharp.fluid}
         style={{ margin: "1rem", maxHeight: "calc(50vh - 4rem)" }}
         imgStyle={{ objectFit: "contain" }}
       />
+      <hr style={{borderTop: '10px solid rebeccapurple'}}/>
       <Img
         fluid={data.review4.childImageSharp.fluid}
         style={{ margin: "1rem", maxHeight: "calc(50vh - 4rem)" }}
         imgStyle={{ objectFit: "contain" }}
       />
+      <hr style={{borderTop: '10px solid rebeccapurple'}}/>
       <Img
         fluid={data.review5.childImageSharp.fluid}
-        style={{ margin: "1rem", maxHeight: "calc(50vh - 4rem)" }}
+        style={{ margin: "1rem", maxHeight: "calc(100vh - 4rem)" }}
         imgStyle={{ objectFit: "contain" }}
       />
       <Img
@@ -90,6 +93,7 @@ const Gallery = () => {
         style={{ margin: "1rem", maxHeight: "calc(50vh - 4rem)" }}
         imgStyle={{ objectFit: "contain" }}
       />
+      <hr style={{borderTop: '10px solid rebeccapurple'}}/>
       <Img
         fluid={data.review7.childImageSharp.fluid}
         style={{ margin: "1rem", maxHeight: "calc(50vh - 4rem)" }}
