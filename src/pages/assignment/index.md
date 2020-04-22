@@ -85,5 +85,4 @@ Listeners receive the message the in many ways<br/>
 Melodies, raps, catchy hooks all are part of the equation<br/>
 All over the world we see innovation<br/>
 Women in hip hop becoming their own nation<br/>
-<hr/>
-<h2>Feedback</h2>
+
